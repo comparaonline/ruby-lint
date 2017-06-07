@@ -1,0 +1,10 @@
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
+
+Style/Documentation:
+  Enabled: false
+Metrics/LineLength:
+  Max: 100
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
