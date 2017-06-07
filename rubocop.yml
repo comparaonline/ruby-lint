@@ -8,3 +8,7 @@ Metrics/LineLength:
   Max: 100
 Style/MultilineMethodCallIndentation:
   EnforcedStyle: indented
+Metrics/BlockLength:
+  ExcludedMethods:
+    - context
+    - describe
