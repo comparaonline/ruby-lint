@@ -4,10 +4,12 @@ AllCops:
 
 Style/Documentation:
   Enabled: false
-Metrics/LineLength:
-  Max: 100
+Style/FormatStringToken
+  EnforcedStyle: template
 Style/MultilineMethodCallIndentation:
   EnforcedStyle: indented
+Metrics/LineLength:
+  Max: 100
 Metrics/BlockLength:
   ExcludedMethods:
     - context
