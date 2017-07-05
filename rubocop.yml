@@ -4,7 +4,7 @@ AllCops:
 
 Style/Documentation:
   Enabled: false
-Style/FormatStringToken
+Style/FormatStringToken:
   EnforcedStyle: template
 Style/MultilineMethodCallIndentation:
   EnforcedStyle: indented
