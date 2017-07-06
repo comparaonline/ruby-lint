@@ -9,7 +9,7 @@ Style/FormatStringToken:
 Style/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 Metrics/LineLength:
-  Max: 100
+  Max: 80
 Metrics/BlockLength:
   ExcludedMethods:
     - context
