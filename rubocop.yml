@@ -1,8 +1,7 @@
 AllCops:
   Exclude:
     - 'db/schema.rb'
-    - Gemfile
-    - Gemfile.lock
+    - Gemfile*
 
 Style/Documentation:
   Enabled: false
