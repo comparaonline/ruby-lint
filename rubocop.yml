@@ -6,7 +6,7 @@ Style/Documentation:
   Enabled: false
 Style/FormatStringToken:
   EnforcedStyle: template
-Style/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 Metrics/LineLength:
   Max: 80
