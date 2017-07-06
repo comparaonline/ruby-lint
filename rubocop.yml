@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - 'db/schema.rb'
+    - Gemfile*
 
 Style/Documentation:
   Enabled: false
