@@ -8,7 +8,7 @@ Style/Documentation:
   Enabled: false
 Style/FormatStringToken:
   EnforcedStyle: template
-Style/FrozenStringLiteralComment
+Style/FrozenStringLiteralComment:
   Enabled: false  
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
