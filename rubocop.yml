@@ -1,7 +1,7 @@
 AllCops:
   Exclude:
-    - 'db/schema.rb'
-    - 'db/seeds.rb'
+    - 'db/**/*'
+    - 'config/**/*'
     - Gemfile*
 
 Style/Documentation:
@@ -9,7 +9,7 @@ Style/Documentation:
 Style/FormatStringToken:
   EnforcedStyle: template
 Style/FrozenStringLiteralComment:
-  Enabled: false  
+  Enabled: false
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 Metrics/LineLength:
